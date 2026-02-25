@@ -124,7 +124,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 ◐◑◐◑◐◑◐◑◐◑◐◑◐◑◑◐◐◑◐◐◑\n<blockquote>➻ <b>Gʀᴏᴜᴘ»</b> {member.chat.title}</blockquote>\n❅─────✧❅✦❅✧─────❅
 <a href=\"https://t.me/ERYX_MUSIC_BOT?start=start\">🌀 𝐔𝐒𝐄𝐑 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 👇🏻</a>\n<blockquote>➻ <b>Nᴀᴍᴇ»</n> {user.mention}!
 ➻ <b>Yᴏᴜʀ ɪᴅ»</b> <code>{user.id}</code>
-➻ <b>Usᴇʀɴᴀᴍᴇ»</b> @{user.username if user.username else "ɴᴏᴛ sᴇᴛ"}</blockquote>\n❅─────✧❅✦❅✧─────❅\n<blockquote><b>❖  𝐌ᴧᴅє  𝐁ɣ ➛  <a href=\"https://t.me/HEART_STR1NGS/114\">𓍼 ໋໋໋໋݊݊݊݊ 𝑬𝒓𝒚𝒙 𓆪ꪾ𓂃ᤢᤢㅤ</a></b></blockquote>
+➻ <b>Usᴇʀɴᴀᴍᴇ»</b> @{user.username if user.username else "ɴᴏᴛ sᴇᴛ"}</blockquote>\n❅─────✧❅✦❅✧─────❅\n<blockquote><b>❖  𝐌ᴧᴅє  𝐁ɣ ➛  <a href=\"https://t.me/SpicyEryx\">𓍼 ໋໋໋໋݊݊݊݊ 𝑬𝒓𝒚𝒙 𓆪ꪾ𓂃ᤢᤢㅤ</a></b></blockquote>
 <b>❅─────✧❅✦❅✧─────❅\n<blockquote>➻ Tʜᴀɴᴋs Fᴏʀ Jᴏɪɴɪɴɢ Us 🤍🌿</blockquote>\n◐◑◐◑◐◑◐◑◐◑◐◑◐◑◐◐◑◑◐◐◑</b>""",
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("🤍 𝐁αву 𝐊ι∂ηαρ 𝐌є 🌿", url=f"https://t.me/{app.username}?startgroup=True")]
