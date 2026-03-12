@@ -45,17 +45,6 @@ def private_panel(_):
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
-        [
-            InlineKeyboardButton(
-                text=_["S_B_11"],
-                callback_data="about_page"
-            ),
-            InlineKeyboardButton(
-                text=_["S_B_12"],
-                callback_data="owner_page"
-            )
-        ],
-        [
             InlineKeyboardButton(
                 text=_["E_X_1"],
                 callback_data="fork_repo"
