@@ -32,25 +32,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
 
     if duration_sec == 0:
-        bar = "●▬▬▬▬▬▬▬▬▬"
+        position = 0
     else:
         percentage = played_sec / duration_sec
-        pos = min(9, int(percentage * 10))
+        position = min(9, int(percentage * 10))
 
-        bars = [
-            "●▬▬▬▬▬▬▬▬▬",
-            "▬●▬▬▬▬▬▬▬▬",
-            "▬▬●▬▬▬▬▬▬▬",
-            "▬▬▬●▬▬▬▬▬▬",
-            "▬▬▬▬●▬▬▬▬▬",
-            "▬▬▬▬▬●▬▬▬▬",
-            "▬▬▬▬▬▬●▬▬▬",
-            "▬▬▬▬▬▬▬●▬▬",
-            "▬▬▬▬▬▬▬▬●▬",
-            "▬▬▬▬▬▬▬▬▬●",
-        ]
+    bars = [
+        "◉▱▱▱▱▱▱▱▱▱",
+        "▰◉▱▱▱▱▱▱▱▱",
+        "▰▰◉▱▱▱▱▱▱▱",
+        "▰▰▰◉▱▱▱▱▱▱",
+        "▰▰▰▰◉▱▱▱▱▱",
+        "▰▰▰▰▰◉▱▱▱▱",
+        "▰▰▰▰▰▰◉▱▱▱",
+        "▰▰▰▰▰▰▰◉▱▱",
+        "▰▰▰▰▰▰▰▰◉▱",
+        "▰▰▰▰▰▰▰▰▰◉",
+    ]
 
-        bar = bars[pos]
+    bar = bars[position]
 
     buttons = [
         [
